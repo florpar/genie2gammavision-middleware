@@ -1,0 +1,1 @@
+C:\cambio --format=SPC --input c:\tempespe\calib\cnf\calib.CNF --output c:\tempespe\calib\spc\calib.spc --force on

@@ -1,0 +1,1 @@
+C:\cambio --format=SPC --input c:\tempespe\cnf\efimero.cnf --output c:\tempespe\spc\efimero.spc --force on

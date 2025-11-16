@@ -1,0 +1,13 @@
+RUN "C:\Archivos de programa\GammaVision\borracalib.BAT"
+WAIT "C:\Archivos de programa\GammaVision\borracalib.BAT"
+RUN "C:\Archivos de programa\GammaVision\geniecalib2.BAT"
+WAIT "C:\Archivos de programa\GammaVision\geniecalib2.BAT"
+RUN "C:\Archivos de programa\GammaVision\cambiarcali.bat"
+WAIT "C:\Archivos de programa\GammaVision\cambiarcali.bat"
+RECALL "C:\tempespe\calib\spc\calib.SPC"
+CALIBRATE_AUTO "C:\tempespe\calib\spc\calib.SPC"
+SAVE "C:\tempespe\calib\spc\calibfin.SPC"
+RECALL "C:\tempespe\calib\spc\calibfin.SPC"
+WAIT "C:\tempespe\calib\spc\calibfin.SPC"
+
+

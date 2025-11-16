@@ -1,0 +1,6 @@
+RUN "C:\Archivos de programa\GammaVision\genieconcambio.BAT"
+WAIT "C:\Archivos de programa\GammaVision\genieconcambio.BAT"
+RUN "C:\Archivos de programa\GammaVision\cambiar.bat"
+WAIT "C:\Archivos de programa\GammaVision\cambiar.bat"
+RECALL "C:\tempespe\spc\efimero.SPC"
+RECALL_CALIB "C:\tempespe\calib\spc\calibfin.SPC"
